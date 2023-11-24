@@ -1,5 +1,11 @@
 # FAC30 Firmware Updating
 
+## Connecting UPDI to board
+
+<img width="594" alt="image" src="https://github.com/FactoryOptic/UPDI/assets/78292477/264b2f77-2a80-48a7-8706-b7a8d123f120">
+
+The UPDI programmer should have black (GND) and yellow (UPDI) wires. Connect this to board via the 2 pin. It should fit into the board and my need some side pressure to make a good contact during programming. The UPDI pin (YEL) should connect as shown in the photo. 
+
 ## Update from Arduino, from source
 
 * If compiling from source, setup the following options in Arduino
