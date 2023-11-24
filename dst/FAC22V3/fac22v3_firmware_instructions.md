@@ -1,5 +1,11 @@
 # FAC22V3.X Firmware Updating
 
+## Connecting UPDI to board
+
+<img width="594" alt="image" src="https://github.com/FactoryOptic/UPDI/assets/78292477/59f445d0-6f68-4363-b0f1-ce63b78ec09d">
+
+The UPDI programmer should have black (GND) and yellow (UPDI) wires. Connect this to J9 via the 2 pin. It should fit into the board and my need some side pressure to make a good contact during programming. The UPDI pin (YEL) should connect in the pin closest to the ATTiny chip as shown in the photo. 
+
 ## Update from Arduino, from source
 
 * If compiling from source, setup the following options in Arduino
