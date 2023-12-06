@@ -21,7 +21,7 @@ The UPDI programmer should have black (GND) and yellow (UPDI) wires. Connect thi
 
 ## Upload hex file
 
-* Copy `fac22v3firmware.hex` to `c:\`
+* Copy `fac22v3.2firmware.hex` to `c:\`
 * Open terminal
 * CD to directory where python3 is located. (best to find this by first uploading the blink example to ATTiny device and seeing where this file is located)
   * `cd C:\Users\pc\AppData\Local\Arduino15\packages\megaTinyCore\tools\python3\3.7.2-post1\`
@@ -45,7 +45,7 @@ The UPDI programmer should have black (GND) and yellow (UPDI) wires. Connect thi
   ```
 
 * Confirm lockbits are set
-  * `pymcuprog -t uart -u COM9 -d attiny1614 read -m user_row`
+  * `pymcuprog -t uart -u COM9 -d attiny1616 read -m user_row`
 
 * If it shows the user row, the device is not protected
 
