@@ -1,10 +1,14 @@
 # FAC14 Firmware Updating
 
+<img width="1173" alt="image" src="https://github.com/FactoryOptic/UPDI/assets/78292477/b7626299-5fdc-41b0-b9d5-b1f4dc0597b1">
+
 ## Connecting UPDI to board
 
-* FAC34 Board with USB A to USB C cable, connected USB A to PC
-* USB C to USB C cable
+* FAC34 Board with USB A to USB C cable, connected USB A to PC (for power only)
+<img width="1052" alt="image" src="https://github.com/FactoryOptic/UPDI/assets/78292477/458bf80b-2e56-494b-9f28-2e90dc18c6ae">
+* USB C to USB C cable from FAC34 to FAC14
 * [Paul Evans UPDI Programmer](https://www.tindie.com/products/leonerd/avr-updi-programmer-with-12v/)
+<img width="1221" alt="image" src="https://github.com/FactoryOptic/UPDI/assets/78292477/89807cac-cd6e-473a-a7c5-b0338bb53009">
 
 The UPDI programmer should have black (GND) and yellow (UPDI) wires. Connect this to GND & UPDI on FAC34.
 
